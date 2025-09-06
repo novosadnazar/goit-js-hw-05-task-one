@@ -1,4 +1,48 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+body {
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 100px;
+  color: gold;
+}
+
+#key {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  color: gold;
+  font-size: 80px;
+}
+
+.game-button {
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+  border: 3px solid greenyellow;
+  border-radius: 10px;
+  background-color: gold;
+  color: green;
+  font-size: 60px;
+  animation-name: btn-move;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  box-shadow: 0 2px 6px rgba(244, 196, 48, 0.35), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+@keyframes btn-move {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

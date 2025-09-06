@@ -13,7 +13,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@pnotify/core": "^5.2.0",
     "gh-pages": "^6.3.0",
     "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "@pnotify/mobile": "^5.2.0"
   }
 }
