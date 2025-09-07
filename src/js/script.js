@@ -5,7 +5,7 @@ import "@pnotify/core/dist/BrightTheme.css";
 
 defaultModules.set(PNotifyMobile, {});
 
-
+//qwerty
 const keys = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"];
 let currentKeyIndex = 0;
 
