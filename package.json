@@ -2,6 +2,7 @@
   "name": "goit-js-hw-05-task-one",
   "version": "1.0.0",
   "description": "",
+    "homepage": "https://novosadnazar.github.io/goit-js-hw-05-task-one",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx parcel src/index.html",
